@@ -7,7 +7,7 @@ from langchain.chains import create_extraction_chain
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Initialize the ChatOpenAI instance
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-0613")
 
 # Define the extract function

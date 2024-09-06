@@ -8,7 +8,7 @@ import os
 import requests
 import json
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 llm = ChatOpenAI(model="gpt-4-turbo-preview")
 
 human_tools = load_tools(["human"])
